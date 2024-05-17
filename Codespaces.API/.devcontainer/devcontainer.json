@@ -1,11 +1,15 @@
 {
   "name": ".NET 8 Core Web API",
   "image": "mcr.microsoft.com/dotnet/sdk:8.0",
-  "forwardPorts": [ 5085, 7030 ],
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
-  },
-  "extensions": [
-    "ms-dotnettools.csharp"
-  ]
+  "forwardPorts": [5085, 7030],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        "ms-dotnettools.csharp"
+      ]
+    }
+  }
 }
