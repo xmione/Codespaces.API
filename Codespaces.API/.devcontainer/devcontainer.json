@@ -1,7 +1,7 @@
 {
   "name": ".NET 8 Core Web API",
   "image": "mcr.microsoft.com/dotnet/sdk:8.0",
-  "forwardPorts": [ 5181, 7237 ],
+  "forwardPorts": [ 5085, 7030 ],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
